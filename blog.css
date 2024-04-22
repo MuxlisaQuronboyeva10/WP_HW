@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    height: 12vh;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.308);
+    display: grid;
+    place-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    box-shadow: 0 0 2px 0 grey;
+}
+.header-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+.logo-name:hover {
+    color: brown;
+}
+.img-wrap {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nav-bar {
+    width: 40%;
+    display: grid;
+    place-items: center;
+}
+.nav-bar_ul {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.nav-bar_ul li:hover {
+    color: brown;
+}
+
+#footer {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+
+}
+#footer-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-weight: 600;
+}
+
+.void {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.085);
+}
+
+
+
+.articles {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.558);
+}
+.arc {
+    width: 60%;
+    height: 80px;
+    border-top: 1px solid rgba(128, 128, 128, 0.121);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    p {
+        margin-left: 10px;
+    }
+}
+.ar2 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.126);
+}
+.arc:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.075);
+}
